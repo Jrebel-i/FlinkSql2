@@ -1,0 +1,2 @@
+flink metric类型分为Counter、Gauge、Histogram、Meter，
+需要统计的是一个累加值因此选取Counter类型的metirc

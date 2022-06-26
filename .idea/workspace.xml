@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime_2.11/1.13.3/flink-runtime_2.11-1.13.3-sources.jar!/org/apache/flink/runtime/executiongraph/DefaultExecutionGraph.java" line="120" />
+    <bookmark url="file://$PROJECT_DIR$/../../source/suorce_flink/flink-streaming-java/src/main/java/org/apache/flink/streaming/runtime/tasks/StreamTask.java" description="init(); //调用OneInputStreamTask.init() --》非SourceSt..." line="554" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d178097-6e99-4cbb-8adf-a0c5e037a9a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>translateToPlan</find>
+      <find>scala</find>
+      <find>run</find>
+      <find>clien</find>
+      <find>reference.conf</find>
+      <find>&lt;scope&gt;provided&lt;/scope&gt;</find>
+      <find>the</find>
+      <find>theUnsafe</find>
+      <find>jsonPlan</find>
+      <find>outputFlusher</find>
+      <find>isMail</find>
+      <find>maybeMail.get</find>
+      <find>impl</find>
+      <find>YuqiSqlParserImplTokenManager</find>
+      <find>#</find>
+      <find>parser</find>
+      <find>Yuqi</find>
+      <find>importStr</find>
+      <find>wh</find>
+      <find>DATETIME_INTERVAL_PRECISION</find>
+      <find>toString</find>
+      <find>org.apache.calcite.sql.parser.impl.YuqiSqlParserImpl</find>
+      <find>timestr2long</find>
+      <find>func1</find>
+      <find>rowcount</find>
+      <find>100</find>
+      <find>userClassLoader</find>
+      <find>convertSql</find>
+      <find>== Abstract Syntax Tree ==</find>
+      <find>Code:</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>//</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\资料整理\MyCode\code\my\learn\FlinkSql2\SqlFlink\src\main\java\com\hc\calcite_module</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/connter_module/email/done/ImapSourceOptions.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/services/org.apache.flink.table.factories.Factory" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/connter_module/email/send_mail.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/connter_module/email/getMess2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/connter_module/email/sendMess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/connter_module/email/getMess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/connter_module/email/testMail163.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/connter_module/email/TestEmailConnter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/connter_module/email/smtp/SmtpSink.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/connter_module/email/done/ImapTableSourceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/connter_module/email/done/ImapSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/rpc_endpoint_module/DemoGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/rpc_endpoint_module/DemoEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/rpc_endpoint_module/FlinkRpcClientExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/rpc_endpoint_module/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/rpc_endpoint_module/FlinkRpcServerExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hc/rpc_endpoint_module/FlinkRpcClientWithResource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testUnsafe.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/cep_module/cep1/Test.scala" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/test/java/testUnsafe.java" />
+        <option value="$PROJECT_DIR$/SqlBlood/src/main/java/com/hc/Demo1.java" />
+        <option value="$PROJECT_DIR$/SqlBlood/src/main/java/com/hc/HiveHook.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/SqlBlood/pom.xml" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/hive_module/streamGraphTest/streamGraph.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/graph_module/WordCountData.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/graph_module/getTypeInformation.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/pom.xml" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/graph_module/DistributedCacheFile.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/JsonMapper.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/graph_module/reductionJobGraph.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/thread_module/SocketWindowWordCount.java" />
+        <option value="$PROJECT_DIR$/SqlCalcite/pom.xml" />
+        <option value="$PROJECT_DIR$/SqlCalcite/src/main/codegen/config.fmpp" />
+        <option value="$PROJECT_DIR$/SqlCalcite/src/main/codegen/xx.json" />
+        <option value="$PROJECT_DIR$/SqlCalcite/src/test/java/com/netease/yuqi/parser/fun/FunctionTest.java" />
+        <option value="$PROJECT_DIR$/SqlCalcite/src/main/java/org/apache/calcite/sql/fun/SqlStdOperatorTable.java" />
+        <option value="$PROJECT_DIR$/SqlCalcite/src/main/java/com/netease/yuqi/fun/FunctionTestOne.java" />
+        <option value="$PROJECT_DIR$/SqlCalcite/src/main/java/com/netease/yuqi/rule/rbo/RBOTestOne.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/calcite.md" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/testStreamGrpahTrans.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/Asserts.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/RunTimeException.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/Trans.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/hive_module/TestHive_GetJsonObject.java" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/xx.scala" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/StreamSQLExample.scala" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/StreamSQLExamplexx.scala" />
+        <option value="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/StreamSQLExampleOwn.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Maven/apache-maven-3.5.4-bin" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.5.4-bin\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SqlCalcite" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SqlCalcite" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="5" />
+    <option name="y" value="114" />
+    <option name="width" value="1936" />
+    <option name="height" value="948" />
+  </component>
+  <component name="ProjectId" id="2AuqsLAslCqG1JunsFeRA75cW7p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FlinkSql2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkSql2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkSql2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkSql2" type="462c0819:PsiDirectoryNode" />
+              <item name="SqlFlink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkSql2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkSql2" type="462c0819:PsiDirectoryNode" />
+              <item name="SqlFlink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkSql2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkSql2" type="462c0819:PsiDirectoryNode" />
+              <item name="SqlFlink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkSql2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkSql2" type="462c0819:PsiDirectoryNode" />
+              <item name="SqlFlink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkSql2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkSql2" type="462c0819:PsiDirectoryNode" />
+              <item name="SqlFlink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkSql2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkSql2" type="462c0819:PsiDirectoryNode" />
+              <item name="SqlFlink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hc" type="462c0819:PsiDirectoryNode" />
+              <item name="calcite_module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkSql2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkSql2" type="462c0819:PsiDirectoryNode" />
+              <item name="SqlFlink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkSql2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8.0_311",
+    "last_opened_file_path": "D:/DataCompilation/MyCode/code/my/source/suorce_flink",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5321839",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "b0bf3df4a5d94eb1e51cfb9088a57a62"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\flink-state-processing-api\src\test\java" />
+      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\flink-state-processing-api\src\main\java" />
+      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\SqlFlink\savePoint" />
+      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\jars" />
+      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\SqlFlink\src\main\java\com\hc\sql_gateway_module" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\资料整理\MyCode\code\my\learn\FlinkSql2\SqlFlink\file\hdfs" />
+      <recent name="E:\BigData_Learning\Own\FlinkSql2\SqlFlink\src\main\java\com\hc\hive_module" />
+      <recent name="E:\BigData_Learning\Own\FlinkSql2\SqlFlink\src\main\java" />
+      <recent name="E:\BigData_Learning\Own\FlinkSql2\src\main\java\com\hc\connter_module\email\GreenMail相关" />
+      <recent name="F:\BigData_Learning\FlinkSql2\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hc.state_process_module" />
+      <recent name="com.hc.calcite_module" />
+      <recent name="com.hc.thread_module" />
+      <recent name="com.hc" />
+      <recent name="com.hc.rpc_endpoint_module" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.hc.state_process_module.TestReadState2">
+    <configuration name="SessionClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.hc.sql_gateway_module.SessionClientMain" />
+      <module name="SqlFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hc.sql_gateway_module.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamSQLExampleOwn" type="Application" factoryName="Application" temporary="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.hc.calcite_module.StreamSQLExampleOwn" />
+      <module name="SqlFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hc.calcite_module.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHive_GetJsonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.hc.hive_module.TestHive_GetJsonObject" />
+      <module name="SqlFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hc.hive_module.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hc.state_process_module.TestReadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.hc.state_process_module.TestReadState" />
+      <module name="SqlFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amazonaws.services.kinesisanalytics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hc.state_process_module.TestReadState2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.hc.state_process_module.TestReadState2" />
+      <module name="SqlFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amazonaws.services.kinesisanalytics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.com.hc.state_process_module.TestReadState" />
+      <item itemvalue="Application.com.hc.state_process_module.TestReadState2" />
+      <item itemvalue="Application.SessionClientMain" />
+      <item itemvalue="Application.TestHive_GetJsonObject" />
+      <item itemvalue="Application.StreamSQLExampleOwn" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.hc.state_process_module.TestReadState2" />
+        <item itemvalue="Application.com.hc.state_process_module.TestReadState" />
+        <item itemvalue="Application.SessionClientMain" />
+        <item itemvalue="Application.StreamSQLExampleOwn" />
+        <item itemvalue="Application.TestHive_GetJsonObject" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d178097-6e99-4cbb-8adf-a0c5e037a9a6" name="Default Changelist" comment="" />
+      <created>1646040856604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646040856604</updated>
+      <workItem from="1646040858288" duration="5637000" />
+      <workItem from="1646105346045" duration="1823000" />
+      <workItem from="1646186017376" duration="3246000" />
+      <workItem from="1646298608248" duration="7312000" />
+      <workItem from="1646743646803" duration="4774000" />
+      <workItem from="1646878190228" duration="6015000" />
+      <workItem from="1646896906760" duration="5734000" />
+      <workItem from="1646928017641" duration="2391000" />
+      <workItem from="1647052082853" duration="1036000" />
+      <workItem from="1647053551685" duration="17000" />
+      <workItem from="1647053617098" duration="31838000" />
+      <workItem from="1647104286724" duration="554000" />
+      <workItem from="1647135559146" duration="19020000" />
+      <workItem from="1647178967472" duration="2553000" />
+      <workItem from="1647259766981" duration="3309000" />
+      <workItem from="1647571008753" duration="587000" />
+      <workItem from="1647586072855" duration="2157000" />
+      <workItem from="1647831861678" duration="4033000" />
+      <workItem from="1647843413115" duration="5111000" />
+      <workItem from="1647914535761" duration="9967000" />
+      <workItem from="1648731705676" duration="8520000" />
+      <workItem from="1648798531051" duration="8820000" />
+      <workItem from="1648814358040" duration="3554000" />
+      <workItem from="1648906990053" duration="426000" />
+      <workItem from="1648907763996" duration="2658000" />
+      <workItem from="1649039972443" duration="23607000" />
+      <workItem from="1649667000051" duration="104000" />
+      <workItem from="1649679702176" duration="79000" />
+      <workItem from="1649991432599" duration="15880000" />
+      <workItem from="1650421497144" duration="2687000" />
+      <workItem from="1652089715301" duration="1000" />
+      <workItem from="1652235204684" duration="462000" />
+      <workItem from="1652682767044" duration="11177000" />
+      <workItem from="1653035148566" duration="1107000" />
+      <workItem from="1653040886519" duration="1209000" />
+      <workItem from="1653557624083" duration="8798000" />
+      <workItem from="1654171830229" duration="6176000" />
+      <workItem from="1654519517372" duration="577000" />
+      <workItem from="1654575814034" duration="12193000" />
+      <workItem from="1654693903412" duration="585000" />
+      <workItem from="1654764478380" duration="7590000" />
+      <workItem from="1654866793950" duration="36150000" />
+      <workItem from="1655200178262" duration="1606000" />
+      <workItem from="1655346130534" duration="44000" />
+      <workItem from="1655352225137" duration="2000" />
+      <workItem from="1655457528013" duration="4192000" />
+      <workItem from="1655870026774" duration="4114000" />
+      <workItem from="1656128636617" duration="25540000" />
+      <workItem from="1656230913680" duration="1317000" />
+    </task>
+    <task id="LOCAL-00001" summary="2022-03-31晚">
+      <created>1648731810516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648731810516</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2022-04-15 hive hook了解">
+      <created>1650088175615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650088175615</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2022-06-11 flinksql了解流程">
+      <created>1654954292214</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654954292214</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2022-06-25 state_process_api 调用测试(在未设置uid的情况下获取,获取对应算子的状态信息)">
+      <created>1656162502971</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656162502972</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2022-06-25 state_process_api 调用测试(在未设置uid的情况下获取,获取对应算子的状态信息)">
+      <created>1656162518632</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656162518632</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2022-06-25 state_process_api 调用测试(在未设置uid的情况下获取,获取对应算子的状态信息)">
+      <created>1656231578603</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656231578603</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="testUnsafe_test1 - 2022.04.15 at 11h 02m 32s.xml">
+      <configuration name="testUnsafe.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testUnsafe_test1 - 2022.04.15 at 11h 03m 09s.xml">
+      <configuration name="testUnsafe.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testUnsafe_test1 - 2022.04.15 at 11h 03m 30s.xml">
+      <configuration name="testUnsafe.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParserTest_testSubmitWrong - 2022.06.09 at 17h 37m 05s.xml">
+      <configuration name="ParserTest.testSubmitWrong" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParserTest_testSubmitWrongOK - 2022.06.09 at 17h 37m 12s.xml">
+      <configuration name="ParserTest.testSubmitWrongOK" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParserTest_testSubmitWrong - 2022.06.09 at 17h 37m 32s.xml">
+      <configuration name="ParserTest.testSubmitWrong" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParserTest_testSubmitWrong - 2022.06.09 at 17h 38m 06s.xml">
+      <configuration name="ParserTest.testSubmitWrong" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionTest_testSubmitWrongOK - 2022.06.09 at 17h 43m 57s.xml">
+      <configuration name="FunctionTest.testSubmitWrongOK" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionTest - 2022.06.09 at 17h 44m 27s.xml">
+      <configuration name="FunctionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionTest_testSubmitWrongOK - 2022.06.09 at 17h 44m 45s.xml">
+      <configuration name="FunctionTest.testSubmitWrongOK" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="278349000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46637744" visible="true" weight="0.30916846" />
+      <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.28784648" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.53362256" side_tool="true" weight="0.29637527" />
+      <window_info id="aws.explorer" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.21908894" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.2559653" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43492407" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.097613886" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.3264642" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="MyBatis Log" order="14" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2489339" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32889125" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2022-03-31晚" />
+    <MESSAGE value="2022-04-15 hive hook了解" />
+    <MESSAGE value="2022-06-11 flinksql了解流程" />
+    <MESSAGE value="2022-06-25 state_process_api 调用测试(在未设置uid的情况下获取,获取对应算子的状态信息)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-06-25 state_process_api 调用测试(在未设置uid的情况下获取,获取对应算子的状态信息)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-api-java/1.13.3/flink-table-api-java-1.13.3-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java</url>
+          <line>729</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-api-java/1.13.3/flink-table-api-java-1.13.3-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java</url>
+          <line>1224</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-api-java/1.13.3/flink-table-api-java-1.13.3-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java</url>
+          <line>790</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/ExecNodeBase.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/common/CommonExecCalc.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/apache/flink/cep/operator/CepOperator.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/apache/flink/cep/PatternStreamBuilder.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/apache/flink/cep/PatternStreamBuilder.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/apache/flink/cep/PatternStreamBuilder.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/apache/flink/cep/PatternStreamBuilder.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/apache/flink/cep/PatternStreamBuilder.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/apache/flink/cep/PatternStreamBuilder.java</url>
+          <line>181</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hc/cep_module/cep2/sgg/Flink01_CEP_BaseUse.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hc/cep_module/cep2/FlinkCEPTest.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hc/cep_module/cep2/FlinkCEPTest.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-clients_2.11/1.13.3/flink-clients_2.11-1.13.3-sources.jar!/org/apache/flink/client/cli/CliFrontend.java</url>
+          <line>1116</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-runtime_2.11/1.13.3/flink-runtime_2.11-1.13.3-sources.jar!/org/apache/flink/runtime/taskexecutor/TaskExecutor.java</url>
+          <line>736</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-runtime_2.11/1.13.3/flink-runtime_2.11-1.13.3-sources.jar!/org/apache/flink/runtime/taskexecutor/TaskExecutor.java</url>
+          <line>688</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-runtime_2.11/1.13.3/flink-runtime_2.11-1.13.3-sources.jar!/org/apache/flink/runtime/taskmanager/Task.java</url>
+          <line>558</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-runtime_2.11/1.13.3/flink-runtime_2.11-1.13.3-sources.jar!/org/apache/flink/runtime/taskmanager/Task.java</url>
+          <line>565</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTask.java</url>
+          <line>622</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-runtime_2.11/1.13.3/flink-runtime_2.11-1.13.3-sources.jar!/org/apache/flink/runtime/taskmanager/Task.java</url>
+          <line>778</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTask.java</url>
+          <line>328</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTask.java</url>
+          <line>329</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTask.java</url>
+          <line>638</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTask.java</url>
+          <line>683</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/mailbox/MailboxProcessor.java</url>
+          <line>201</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/mailbox/Mail.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/mailbox/MailboxProcessor.java</url>
+          <line>343</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-runtime-blink_2.11/1.13.3/flink-table-runtime-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/runtime/operators/aggregate/MiniBatchGroupAggFunction.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-clients_2.11/1.13.3/flink-clients_2.11-1.13.3-sources.jar!/org/apache/flink/client/deployment/executors/AbstractJobClusterExecutor.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-api-java/1.13.3/flink-table-api-java-1.13.3-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java</url>
+          <line>794</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hc/source_module/SocketWindowWordCount.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/api/graph/StreamGraphGenerator.java</url>
+          <line>299</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTask.java</url>
+          <line>325</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hc/connter_module/email/done/ImapSource.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/3.1.2/hive-exec-3.1.2-sources.jar!/org/apache/hadoop/hive/ql/HookRunner.java</url>
+          <line>295</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/3.1.2/hive-exec-3.1.2-sources.jar!/org/apache/hadoop/hive/ql/HookRunner.java</url>
+          <line>282</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/3.1.2/hive-exec-3.1.2-sources.jar!/org/apache/hadoop/hive/ql/HookRunner.java</url>
+          <line>277</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/3.1.2/hive-exec-3.1.2-sources.jar!/org/apache/hadoop/hive/ql/HookRunner.java</url>
+          <line>272</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/3.1.2/hive-exec-3.1.2-sources.jar!/org/apache/hadoop/hive/ql/Driver.java</url>
+          <line>1708</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/graph_module/getTypeInformation.java</url>
+          <line>55</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/operators/windowing/WindowOperatorBuilder.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/thread_module/SocketWindowWordCount.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTask.java</url>
+          <line>422</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/api/operators/StreamFlatMap.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/thread_module/SocketWindowWordCount.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/mailbox/MailboxProcessor.java</url>
+          <line>481</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/thread_module/SocketWindowWordCount.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/io/AbstractStreamTaskNetworkInput.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime_2.11/1.13.3/flink-runtime_2.11-1.13.3-sources.jar!/org/apache/flink/runtime/io/network/api/writer/RecordWriter.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/hive_module/TestHive_GetJsonObject.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.13.3/flink-table-api-java-1.13.3-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java</url>
+          <line>739</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.13.3/flink-table-api-java-1.13.3-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java</url>
+          <line>741</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime-blink_2.11/1.13.3/flink-table-runtime-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/runtime/generated/CompileUtils.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.13.3/flink-table-api-java-1.13.3-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java</url>
+          <line>756</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.13.3/flink-table-api-java-1.13.3-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java</url>
+          <line>855</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/ExecNodeBase.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/SourceStreamTask.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/TestReadState2.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/TestReadState2.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/TestReadState2.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/delegation/PlannerBase.scala</url>
+          <line>164</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/delegation/StreamPlanner.scala</url>
+          <line>69</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/delegation/PlannerBase.scala</url>
+          <line>162</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/optimize/StreamCommonSubGraphBasedOptimizer.scala</url>
+          <line>160</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/optimize/StreamCommonSubGraphBasedOptimizer.scala</url>
+          <line>162</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/optimize/program/FlinkChainedProgram.scala</url>
+          <line>58</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/codegen/CalcCodeGenerator.scala</url>
+          <line>49</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/codegen/CalcCodeGenerator.scala</url>
+          <line>140</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/codegen/ExprCodeGenerator.scala</url>
+          <line>506</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/codegen/ExprCodeGenerator.scala</url>
+          <line>831</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/optimize/StreamCommonSubGraphBasedOptimizer.scala</url>
+          <line>50</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/optimize/StreamCommonSubGraphBasedOptimizer.scala</url>
+          <line>154</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/delegation/PlannerBase.scala</url>
+          <line>164</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/delegation/PlannerBase.scala</url>
+          <line>162</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/optimize/program/FlinkChainedProgram.scala</url>
+          <line>56</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/optimize/program/FlinkChainedProgram.scala</url>
+          <line>61</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/delegation/StreamPlanner.scala</url>
+          <line>69</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="115" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="savepoint" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>getAllOperators(true)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>configuration.getStreamOperatorFactory(containingTask.getEnvironment().getUserCodeClassLoader().asClassLoader())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>containingTask.getEnvironment().getUserCodeClassLoader().asClassLoader()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>configuration.getStreamOperatorFactory()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.dataStream</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rules</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>builder.build()</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>requestedRootTraits</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>iterations</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>programNames</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_311/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime_2.11/1.13.3/flink-runtime_2.11-1.13.3-sources.jar!/org/apache/flink/runtime/taskexecutor/TaskExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2302">
+          <caret line="646" selection-start-line="646" selection-end-line="646" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-shaded-guava/18.0-13.0/flink-shaded-guava-18.0-13.0.jar!/org/apache/flink/shaded/guava18/com/google/common/cache/LocalCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="516" column="202" lean-forward="true" selection-start-line="516" selection-start-column="202" selection-end-line="516" selection-end-column="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/api/operators/AbstractStreamOperatorV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="212" column="22" selection-start-line="212" selection-start-column="22" selection-end-line="212" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamOperatorWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="224" column="8" selection-start-line="224" selection-start-column="8" selection-end-line="224" selection-end-column="8" />
+          <folding>
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3769#3770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.13.3/flink-core-1.13.3-sources.jar!/org/apache/flink/api/common/ExecutionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="1025" selection-start-line="1025" selection-end-line="1025" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.13.3/flink-core-1.13.3-sources.jar!/org/apache/flink/configuration/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#2656#2657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.13.3/flink-core-1.13.3-sources.jar!/org/apache/flink/api/common/functions/util/FunctionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTaskActionExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime_2.11/1.13.3/flink-runtime_2.11-1.13.3-sources.jar!/org/apache/flink/runtime/taskmanager/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="911" selection-start-line="911" selection-end-line="911" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime-blink_2.11/1.13.3/flink-table-runtime-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/runtime/operators/sink/SinkOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/common/CommonExecCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/stream/StreamExecCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime-blink_2.11/1.13.3/flink-table-runtime-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/runtime/operators/TableStreamOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime-blink_2.11/1.13.3/flink-table-runtime-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/runtime/operators/source/InputConversionOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/api/operators/StreamSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/api/operators/AbstractUdfStreamOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/api/operators/StreamOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/api/operators/AbstractStreamOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="263" selection-start-line="263" selection-end-line="263" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/mailbox/MailboxProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="203" column="40" lean-forward="true" selection-start-line="203" selection-start-column="40" selection-end-line="203" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/mailbox/MailboxDefaultAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/SourceOperatorStreamTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/OneInputStreamTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3697">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="421" column="19" selection-start-line="421" selection-start-column="19" selection-end-line="421" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/OperatorChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="441" selection-start-line="441" selection-end-line="441" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlCalcite/src/main/java/org/apache/calcite/sql/SqlSubmit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-419">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlBlood/src/main/java/com/hc/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlCalcite/src/main/java/com/netease/yuqi/util/RelNodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlCalcite/src/main/java/com/netease/yuqi/rule/rbo/RBOTestOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlBlood/src/main/java/com/hc/HookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/operations/SqlToOperationConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="201" column="38" selection-start-line="201" selection-start-column="38" selection-end-line="201" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/delegation/ParserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="87" column="27" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.13.3/flink-table-api-java-1.13.3-sources.jar!/org/apache/flink/table/delegation/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.16.0/calcite-core-1.16.0-sources.jar!/org/apache/calcite/sql2rel/SqlToRelConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13783">
+          <caret line="212" column="13" selection-start-line="212" selection-start-column="13" selection-end-line="212" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlFlink/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/hive_module/TestHive_GetJsonObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-runtime-blink_2.11/1.13.3/flink-table-runtime-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/runtime/generated/CompileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/delegation/PlannerBase.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2575">
+          <caret line="164" column="8" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/optimize/StreamCommonSubGraphBasedOptimizer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2925">
+          <caret line="154" column="8" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2998#3060#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/optimize/program/FlinkChainedProgram.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/plan/nodes/exec/ExecNodeBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/runtime/tasks/SourceStreamTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2925">
+          <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.16.0/calcite-core-1.16.0-sources.jar!/org/apache/calcite/rel/metadata/RelMdColumnOrigins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/calcite.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlBlood/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2057" />
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/StreamSQLExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825">
+          <caret line="19" selection-start-line="19" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <element signature="e#837#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.13.3/flink-table-api-java-1.13.3-sources.jar!/org/apache/flink/table/api/TableEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="885" column="11" selection-start-line="885" selection-start-column="11" selection-end-line="885" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.13.3/flink-table-api-java-1.13.3-sources.jar!/org/apache/flink/table/api/internal/TableEnvironmentImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="692" column="32" lean-forward="true" selection-start-line="692" selection-start-column="32" selection-end-line="692" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java/1.13.3/flink-table-api-java-1.13.3-sources.jar!/org/apache/flink/table/delegation/Planner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="86" column="11" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/delegation/StreamPlanner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="135" column="54" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/StreamSQLExampleOwn.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="e#31#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_311</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SqlFlink</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

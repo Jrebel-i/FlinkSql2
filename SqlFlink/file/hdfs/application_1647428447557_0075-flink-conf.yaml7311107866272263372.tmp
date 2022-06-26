@@ -1,0 +1,30 @@
+internal.jobgraph-path: job.graph
+metrics.reporter.promgateway.port: 9091
+classloader.check-leaked-classloader: false
+metrics.reporter.promgateway.interval: 30 SECONDS
+jobmanager.execution.failover-strategy: region
+metrics.reporter.promgateway.jobName: flink-metrics-ppg
+high-availability.cluster-id: application_1647428447557_0075
+jobmanager.rpc.address: localhost
+metrics.reporter.promgateway.class: org.apache.flink.metrics.prometheus.PrometheusPushGatewayReporter
+execution.savepoint.ignore-unclaimed-state: false
+parallelism.default: 1
+metrics.reporter.promgateway.randomJobNameSuffix: true
+taskmanager.numberOfTaskSlots: 2
+pipeline.classpaths: 
+yarn.application.name: prd/gruel_client/
+yarn.application.queue: default
+taskmanager.memory.process.size: 6144mb
+execution.savepoint.path: s3a://bmg-datalake/garena/data/prd/checkpoint/gruel_client/066a0b2b08b517389005dd8c1e721247/chk-9403/
+execution.target: yarn-per-job
+jobmanager.memory.process.size: 2048mb
+jobmanager.rpc.port: 6123
+metrics.reporter.promgateway.deleteOnShutdown: false
+execution.attached: false
+internal.cluster.execution-mode: DETACHED
+execution.shutdown-on-attached-exit: false
+pipeline.jars: file:/mnt1/module/flink-1.13.3/deployFile/S3Sink4_Transform_Gruel-1.0-SNAPSHOT.jar
+metrics.reporter.promgateway.host: ip-172-31-8-190.us-east-2.compute.internal
+$internal.deployment.config-dir: /mnt1/module/flink-1.13.3/conf
+$internal.yarn.log-config-file: /mnt1/module/flink-1.13.3/conf/log4j.properties
+akka.client.timeout: 300000
