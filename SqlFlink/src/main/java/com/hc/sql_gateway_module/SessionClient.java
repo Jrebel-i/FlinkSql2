@@ -74,7 +74,7 @@ public class SessionClient {
         this.sessionName = "FelixZh-Session";
         this.planner = "blink";
         this.executionType = executionType;
-        this.executor = Executors.newFixedThreadPool(4, new ExecutorThreadFactory("FelixZh-IO"));
+        this.executor = Executors.newFixedThreadPool(4, new ExecutorThreadFactory("FelixZh-IO"));//创建线程
         this.restClient = new RestClient(RestClientConfiguration.fromConfiguration(new Configuration()), executor);
 
         connectInternal();

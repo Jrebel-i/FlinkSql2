@@ -19,7 +19,11 @@ public class SessionClientMain {
 
 
     public static void main(String[] args) throws Exception {
-        SessionClient session = new SessionClient("ec2-44-192-111-198.compute-1.amazonaws.com", 8083, "streaming");
+        System.out.println(CREATE_SOURCE_SQL);
+        System.out.println(CREATE_PRINT_SQL);
+        System.out.println(SHOW_TABLES_SQL);
+        System.out.println(CREATE_JOB_SQL);
+        SessionClient session = new SessionClient("127.0.0.1", 8083, "streaming");
         System.out.println(session.submitStatement(CREATE_SOURCE_SQL).getResults());
         System.out.println(session.submitStatement(CREATE_PRINT_SQL).getResults());
         System.out.println(session.submitStatement(SHOW_TABLES_SQL).getResults());

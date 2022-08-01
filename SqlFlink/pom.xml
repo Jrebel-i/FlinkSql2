@@ -245,5 +245,19 @@
             <artifactId>flink-connector-mysql-cdc</artifactId>
             <version>2.1.0</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.shyiko/mysql-binlog-connector-java -->
+        <dependency>
+            <groupId>com.github.shyiko</groupId>
+            <artifactId>mysql-binlog-connector-java</artifactId>
+            <version>0.16.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.calcite</groupId>
+            <artifactId>calcite-core</artifactId>
+            <version>1.26.0</version>
+            <!--<version>1.11.0</version>-->
+        </dependency>
     </dependencies>
 </project>

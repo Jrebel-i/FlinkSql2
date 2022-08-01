@@ -1,0 +1,165 @@
+package com.hc.state_process_module;
+
+import com.ververica.cdc.connectors.mysql.source.split.MySqlBinlogSplit;
+import com.ververica.cdc.connectors.mysql.source.split.MySqlSplit;
+import com.ververica.cdc.connectors.mysql.source.split.MySqlSplitSerializer;
+import org.apache.flink.api.common.functions.FlatMapFunction;
+import org.apache.flink.api.common.functions.MapFunction;
+import org.apache.flink.api.common.functions.RichFlatMapFunction;
+import org.apache.flink.api.common.functions.RichMapFunction;
+import org.apache.flink.api.common.operators.Order;
+import org.apache.flink.api.common.typeinfo.TypeHint;
+import org.apache.flink.api.common.typeinfo.TypeInformation;
+import org.apache.flink.api.common.typeutils.base.array.BytePrimitiveArraySerializer;
+import org.apache.flink.api.java.DataSet;
+import org.apache.flink.api.java.ExecutionEnvironment;
+import org.apache.flink.api.java.functions.KeySelector;
+import org.apache.flink.api.java.operators.DataSource;
+import org.apache.flink.api.java.operators.FlatMapOperator;
+import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.api.java.typeutils.TupleTypeInfo;
+import org.apache.flink.core.fs.Path;
+import org.apache.flink.core.io.SimpleVersionedSerialization;
+import org.apache.flink.kinesis.shaded.com.amazonaws.services.kinesis.model.HashKeyRange;
+import org.apache.flink.kinesis.shaded.com.amazonaws.services.kinesis.model.SequenceNumberRange;
+import org.apache.flink.kinesis.shaded.com.amazonaws.services.kinesis.model.Shard;
+import org.apache.flink.runtime.OperatorIDPair;
+import org.apache.flink.runtime.jobgraph.JobGraph;
+import org.apache.flink.runtime.jobgraph.JobVertex;
+import org.apache.flink.runtime.jobgraph.OperatorID;
+import org.apache.flink.runtime.rest.handler.RestHandlerException;
+import org.apache.flink.runtime.state.hashmap.HashMapStateBackend;
+import org.apache.flink.shaded.netty4.io.netty.handler.codec.http.HttpResponseStatus;
+import org.apache.flink.state.api.ExistingSavepoint;
+import org.apache.flink.state.api.Savepoint;
+import org.apache.flink.streaming.connectors.kinesis.internals.KinesisDataFetcher;
+import org.apache.flink.streaming.connectors.kinesis.model.SequenceNumber;
+import org.apache.flink.streaming.connectors.kinesis.model.StreamShardHandle;
+import org.apache.flink.streaming.connectors.kinesis.model.StreamShardMetadata;
+import org.apache.flink.util.Collector;
+
+import java.io.File;
+import java.io.ObjectInputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.CompletionException;
+
+import static org.apache.flink.util.StringUtils.byteToHexString;
+import static org.apache.flink.util.StringUtils.hexStringToByte;
+
+public class TestReadState3_aboutKinesisShard {
+    public static void main(String[] args) throws Exception {
+        int partitions=42;
+//        获取作业ck文件
+//        aws s3 cp s3://bmg-datalake/garena/data/prd/checkpoint/gruel_client/fb06f8299c99bb3bd0336cfe9f76ca4a/  fb06f8299c99bb3bd0336cfe9f76ca4a/ --recursive
+//        获取JobGraph
+//        hadoop fs -get  /user/hadoop/.flink/application_1647428447557_0075/application_1647428447557_00757220043586029915571.tmp .
+        Path jobGraphFile = Path.fromLocalFile(new File("SqlFlink/savePoint/application_1647428447557_00906922697475515294434.tmp"));
+        System.out.println(jobGraphFile.toUri());
+        JobGraph jobGraph;
+        try (ObjectInputStream objectIn =
+                     new ObjectInputStream(
+                             jobGraphFile.getFileSystem().open(jobGraphFile))) {
+            jobGraph = (JobGraph) objectIn.readObject();
+        } catch (Exception e) {
+            throw new CompletionException(
+                    new RestHandlerException(
+                            "Failed to deserialize JobGraph.",
+                            HttpResponseStatus.BAD_REQUEST,
+                            e));
+        }
+        //获取到这个作业对于operatorId  (根据这里。我们可以得出结论，vertexID,其实就是chain在一起算子中尾算子的OperatorID)
+        System.out.println(jobGraph.getJobID());
+        System.out.println("*************************************************************************************");
+        for (JobVertex vertex : jobGraph.getVertices()) {
+            System.out.println(vertex.getID()+"=====>"+vertex.getName());
+            for (OperatorIDPair operatorID : vertex.getOperatorIDs()) {
+                System.out.println("该vertex对应的operatorID为："+operatorID.getGeneratedOperatorID());
+            }
+            System.out.println("*************************************************************************************");
+        }
+
+        ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+        env.setParallelism(1);
+        ExistingSavepoint savepoint = Savepoint.load(env,
+                "s3a://big-data-warehouse-ods/odsData/checkpoint/client/env_type=prd/6784f956f6c03da90bbf736d187cbfa9/chk-17066",
+//                "s3a://big-data-warehouse-ods/odsData/checkpoint/server/env_type=prd/f32d540b8ceb77cc3d9eaa0c3ab45cc7/chk-10480",
+//                "file:///D:\\DataCompilation\\MyCode\\code\\my\\learn\\FlinkSql2\\SqlFlink\\savePoint\\fb06f8299c99bb3bd0336cfe9f76ca4a\\chk-13370",
+                new HashMapStateBackend());
+        TypeInformation<Tuple2<StreamShardMetadata, SequenceNumber>> shardsStateTypeInfo =
+                new TupleTypeInfo<>(
+                        TypeInformation.of(StreamShardMetadata.class),
+                        TypeInformation.of(SequenceNumber.class));
+
+        //我们可以通过JobGraph获取到source的operatorID为：6cdc5bb954874d922eaee11a8e7b5dd5  [从后往前获取的]
+        OperatorID operatorID = new OperatorID(hexStringToByte("cbc357ccb763df2852fee8c4fc7d55f2"));
+        System.out.println(operatorID.getUpperPart()+"====>"+operatorID.getLowerPart());
+
+        DataSet<Tuple2<StreamShardMetadata, SequenceNumber>> sourceState = savepoint.readUnionStateOfOperatorID(
+                operatorID,
+                "Kinesis-Stream-Shard-State",
+                shardsStateTypeInfo
+        );
+
+//        sourceState.print();
+        FlatMapOperator<Tuple2<StreamShardMetadata, SequenceNumber>, String> tuple2StringFlatMapOperator = sourceState.flatMap(new RichFlatMapFunction<Tuple2<StreamShardMetadata, SequenceNumber>, String>() {
+            @Override
+            public void flatMap(Tuple2<StreamShardMetadata, SequenceNumber> value, Collector<String> out) throws Exception {
+                StreamShardMetadata f0 = value.f0;
+                SequenceNumber f1 = value.f1;
+
+//                System.out.println(f0.getEndingSequenceNumber()+"==========>"+(f0.getEndingSequenceNumber()==null));
+                //需要确保endingSequenceNumber为null(空)，这样的shard才是正在使用的，否则则就是已经结束了的
+                if (f0.getEndingSequenceNumber() == null) {
+                    Shard shard = new Shard();
+                    shard.withShardId(f0.getShardId());
+                    shard.withParentShardId(f0.getParentShardId());
+                    shard.withAdjacentParentShardId(f0.getAdjacentParentShardId());
+
+                    HashKeyRange hashKeyRange = new HashKeyRange();
+                    hashKeyRange.withStartingHashKey(f0.getStartingHashKey());
+                    hashKeyRange.withEndingHashKey(f0.getEndingHashKey());
+                    shard.withHashKeyRange(hashKeyRange);
+
+                    SequenceNumberRange sequenceNumberRange = new SequenceNumberRange();
+                    sequenceNumberRange.withStartingSequenceNumber(
+                            f0.getStartingSequenceNumber());
+                    sequenceNumberRange.withEndingSequenceNumber(f0.getEndingSequenceNumber());
+                    shard.withSequenceNumberRange(sequenceNumberRange);
+
+                    StreamShardHandle handle = new StreamShardHandle(f0.getStreamName(), shard);
+                    //默认策略
+                    int hashCode = KinesisDataFetcher.DEFAULT_SHARD_ASSIGNER.assign(handle, partitions);
+                    int abs = Math.abs(hashCode % partitions);
+                    out.collect(f0.getShardId() + '_' + hashCode + "_" + abs);
+
+                    //flink1.15版本引入的策略
+//                    int hashCode = new UniformShardAssigner().assign(handle, partitions);
+//                    int abs = Math.abs(hashCode % partitions);
+//                    out.collect(f0.getShardId() + '_' + hashCode + "_" + abs);
+                }
+
+            }
+        });
+
+//        tuple2StringFlatMapOperator.print();
+        tuple2StringFlatMapOperator.flatMap(new FlatMapFunction<String, String>() {
+            Map<String,String> mp=new HashMap<>();
+            @Override
+            public void flatMap(String value, Collector<String> out) throws Exception {
+                String[] s = value.split("_");
+                if(mp.containsKey(s[2])){
+
+                }else{
+                    mp.put(s[2],"");
+                    out.collect(s[2]);
+                }
+            }
+        })
+                .print();
+        System.out.println("*****************************************************************************************************************************************************");
+
+    }
+}

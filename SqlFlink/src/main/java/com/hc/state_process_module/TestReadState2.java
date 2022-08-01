@@ -5,6 +5,7 @@ import com.ververica.cdc.connectors.mysql.source.split.MySqlBinlogSplit;
 import com.ververica.cdc.connectors.mysql.source.split.MySqlSplit;
 import com.ververica.cdc.connectors.mysql.source.split.MySqlSplitSerializer;
 import org.apache.flink.api.common.functions.MapFunction;
+import org.apache.flink.api.common.functions.RichMapFunction;
 import org.apache.flink.api.common.typeinfo.BasicTypeInfo;
 import org.apache.flink.api.common.typeinfo.TypeHint;
 import org.apache.flink.api.common.typeinfo.TypeInformation;
@@ -17,6 +18,9 @@ import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.typeutils.TupleTypeInfo;
 import org.apache.flink.core.fs.Path;
 import org.apache.flink.core.io.SimpleVersionedSerialization;
+import org.apache.flink.kinesis.shaded.com.amazonaws.services.kinesis.model.HashKeyRange;
+import org.apache.flink.kinesis.shaded.com.amazonaws.services.kinesis.model.SequenceNumberRange;
+import org.apache.flink.kinesis.shaded.com.amazonaws.services.kinesis.model.Shard;
 import org.apache.flink.runtime.OperatorIDPair;
 import org.apache.flink.runtime.jobgraph.JobGraph;
 import org.apache.flink.runtime.jobgraph.JobVertex;
@@ -27,7 +31,9 @@ import org.apache.flink.shaded.netty4.io.netty.handler.codec.http.HttpResponseSt
 import org.apache.flink.state.api.ExistingSavepoint;
 import org.apache.flink.state.api.Savepoint;
 import org.apache.flink.streaming.api.operators.util.SimpleVersionedListState;
+import org.apache.flink.streaming.connectors.kinesis.internals.KinesisDataFetcher;
 import org.apache.flink.streaming.connectors.kinesis.model.SequenceNumber;
+import org.apache.flink.streaming.connectors.kinesis.model.StreamShardHandle;
 import org.apache.flink.streaming.connectors.kinesis.model.StreamShardMetadata;
 import org.apache.flink.table.runtime.typeutils.StringDataTypeInfo;
 
@@ -71,7 +77,7 @@ public class TestReadState2 {
 
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
         ExistingSavepoint savepoint = Savepoint.load(env,
-//                "s3a://bmg-datalake/garena/data/prd/checkpoint/gruel_client/fb06f8299c99bb3bd0336cfe9f76ca4a/chk-13422/",
+//                "s3a://bmg-datalake/garena/data/prd/checkpoint/gruel_client/fb06f8299c99bb3bd0336cfe9f76ca4a/chk-13682/",
                 "file:///D:\\DataCompilation\\MyCode\\code\\my\\learn\\FlinkSql2\\SqlFlink\\savePoint\\fb06f8299c99bb3bd0336cfe9f76ca4a\\chk-13370",
                 new HashMapStateBackend());
         TypeInformation<Tuple2<StreamShardMetadata, SequenceNumber>> shardsStateTypeInfo =
@@ -95,7 +101,7 @@ public class TestReadState2 {
                 shardsStateTypeInfo
         );
 
-//        sourceState.print();
+        sourceState.print();
         System.out.println("*****************************************************************************************************************************************************");
 //*****************************************************************************************************************************************************
 
@@ -108,7 +114,7 @@ public class TestReadState2 {
 //                TypeInformation.of(String.class),
 //                TypeInformation.of(TableProcess.class)
 //        );
-
+//
 //        broadState.print();
         System.out.println("*****************************************************************************************************************************************************");
         //*****************************************************************************************************************************************************
