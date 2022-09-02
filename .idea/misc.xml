@@ -10,6 +10,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/flink-file-sink-common/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-streaming-java/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8.0_311" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

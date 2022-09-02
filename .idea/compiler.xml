@@ -11,10 +11,13 @@
         <module name="SqlCalcite" />
         <module name="SqlBlood" />
         <module name="flink-state-processing-api" />
+        <module name="NettyKinesis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="flink-file-sink-common" target="1.8" />
       <module name="flink-state-processor-api_2.11" target="1.5" />
+      <module name="flink-streaming-java" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

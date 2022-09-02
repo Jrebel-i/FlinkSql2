@@ -9,27 +9,134 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d178097-6e99-4cbb-8adf-a0c5e037a9a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SqlFlink/savePoint/application_1647428447557_00906922697475515294434.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/DemoDebug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/calcite_module/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/row_module/LiteralInRowCalcite.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/row_module/LiteralInRowFlink.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/JobVertexGenerator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/TestReadState3_aboutKinesisShard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/UniformShardAssigner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/readSqlBinlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NettyKinesis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NettyKinesis/src/main/java/com/hc/KinesisAsyncClientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NettyKinesis/src/main/java/com/hc/TestNettyNioAsyncKinesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/TestReadState4_aboutKinesisShard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/TestReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/org/apache/flink/fs/s3/common/writer/S3RecoverableSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/TestReadState4_aboutKinesisShard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SqlFlink/src/test/java/LongOf1Num.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlBlood/target/classes/com/hc/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlBlood/target/classes/com/hc/HookTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlBlood/target/hive_hook-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlBlood/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlBlood/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlBlood/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlBlood/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlBlood/target/original-SqlBlood-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/DogSqlValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/DogVolcanoPlanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/RelVisitTestOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/converter/DogFilterConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/converter/DogProjectConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/converter/DogTableScanConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/cost/DogBuiltInMetadata$TotalCost$Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/cost/DogBuiltInMetadata$TotalCost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/cost/DogBuiltInMetadata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/cost/DogCostAccumulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/cost/DogCumulativeCost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/cost/DogRelMetaDataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/cost/DogRelMetadataQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/rel/DogFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/rel/DogProject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/rel/DogRel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/_aux/rel/DogTableScan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/fun/FunctionTestOne$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/fun/FunctionTestOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/fun/FunctionTestTwo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/fun/FunctionTestTwo$TestSqlValidatorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/fun/FunctionTestTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/fun/FunctionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/janino/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/rule/rbo/RBOTestOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/util/RelNodeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/util/TestTimeConsumption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/util/UserBehaviorParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/util/UserBehaviorParser$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/com/netease/yuqi/util/UserBehaviorParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/javacc/Parser.jj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/SqlSubmit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/fun/SqlStdOperatorTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/parser/impl/ParseException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/parser/impl/SimpleCharStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/parser/impl/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/parser/impl/TokenMgrError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/parser/impl/YuqiSqlParserImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/parser/impl/YuqiSqlParserImpl$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/parser/impl/YuqiSqlParserImpl$JJCalls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/parser/impl/YuqiSqlParserImpl$LookaheadSuccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/parser/impl/YuqiSqlParserImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/parser/impl/YuqiSqlParserImplConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/classes/org/apache/calcite/sql/parser/impl/YuqiSqlParserImplTokenManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/generated-sources/fmpp/javacc/Parser.jj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/generated-sources/javacc/org/apache/calcite/sql/parser/impl/ParseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/generated-sources/javacc/org/apache/calcite/sql/parser/impl/SimpleCharStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/generated-sources/javacc/org/apache/calcite/sql/parser/impl/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/generated-sources/javacc/org/apache/calcite/sql/parser/impl/TokenMgrError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/generated-sources/javacc/org/apache/calcite/sql/parser/impl/YuqiSqlParserImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/generated-sources/javacc/org/apache/calcite/sql/parser/impl/YuqiSqlParserImplConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/generated-sources/javacc/org/apache/calcite/sql/parser/impl/YuqiSqlParserImplTokenManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/test-classes/com/netease/yuqi/parser/ParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlCalcite/target/test-classes/com/netease/yuqi/parser/fun/FunctionTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SqlFlink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SqlFlink/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/sql_gateway_module/SessionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/sql_gateway_module/SessionClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/sql_gateway_module/SessionClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/sql_gateway_module/SessionClientMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/TestReadState2.java" beforeDir="false" afterPath="$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/TestReadState2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SqlFlink/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SqlFlink/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SqlFlink/target/classes/com/hc/sql_gateway_module/SessionClientMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/SqlFlink/target/classes/com/hc/sql_gateway_module/SessionClientMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SqlFlink/target/classes/com/hc/state_process_module/TestReadState2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SqlFlink/target/classes/com/hc/state_process_module/TestReadState2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SqlFlink/target/classes/com/hc/state_process_module/TestReadState2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/SqlFlink/target/classes/com/hc/state_process_module/TestReadState2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SqlFlink/target/classes/com/hc/state_process_module/TestReadState2.class" beforeDir="false" afterPath="$PROJECT_DIR$/SqlFlink/target/classes/com/hc/state_process_module/TestReadState2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SqlFlink/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SqlFlink/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/BootstrapTransformationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/CustomIntSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/MemoryStateBackendReaderKeyedStateITCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/MemoryStateBackendWindowITCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/RocksDBStateBackendReaderKeyedStateITCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/RocksDBStateBackendWindowITCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/SavepointDeepCopyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/SavepointReaderCustomSerializerITCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/SavepointReaderITCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/SavepointReaderITTestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/SavepointReaderKeyedStateITCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/SavepointTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/SavepointWindowReaderITCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/SavepointWriterITCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/SavepointWriterWindowITCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/input/BroadcastStateInputFormatTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/input/BufferingCollectorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/input/KeyedStateInputFormatTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/input/ListStateInputFormatTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/input/MultiStateKeyIteratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/input/UnionStateInputFormatTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/input/WindowReaderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/output/KeyedStateBootstrapOperatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/output/SavepointOutputFormatTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/output/SnapshotUtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/runtime/OperatorIDGeneratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/utils/AggregateSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/utils/MaxWatermarkSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/utils/ReduceSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/utils/SavepointTestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-state-processing-api/src/test/java/org/apache/flink/state/api/utils/WaitingSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,29 +374,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8.0_311&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/DataCompilation/MyCode/code/my/learn/FlinkSql2/SqlFlink/savePoint&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.5321839&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;jprofiler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b0bf3df4a5d94eb1e51cfb9088a57a62&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8.0_311",
+    "last_opened_file_path": "D:/aws-doc-sdk-examples/javav2/example_code/kinesis",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5321839",
+    "settings.editor.selected.configurable": "jprofiler",
+    "spring.configuration.checksum": "b0bf3df4a5d94eb1e51cfb9088a57a62"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\SqlFlink\savePoint" />
-      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\flink-state-processing-api\src\test\java" />
-      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\flink-state-processing-api\src\main\java" />
-      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\jars" />
-      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\SqlFlink\src\main\java\com\hc\sql_gateway_module" />
+      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\flink-file-sink-common\src\test\java" />
+      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\flink-file-sink-common\src\main\java" />
+      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\flink-file-sink-common\src\test" />
+      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\flink-streaming-java\src\test" />
+      <recent name="D:\DataCompilation\MyCode\code\my\learn\FlinkSql2\flink-streaming-java\src\test\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\资料整理\MyCode\code\my\learn\FlinkSql2\SqlFlink\file\hdfs" />
@@ -299,21 +406,21 @@
       <recent name="F:\BigData_Learning\FlinkSql2\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hc" />
+      <recent name="org.apache.flink.streaming.api.functions.sink.filesystem" />
+      <recent name="bucketassigners" />
       <recent name="com.hc.state_process_module" />
       <recent name="com.hc.calcite_module" />
-      <recent name="com.hc.thread_module" />
-      <recent name="com.hc" />
-      <recent name="com.hc.rpc_endpoint_module" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SessionClientMain">
-    <configuration name="JobVertexGenerator" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.KinesisAsyncClientFactory">
+    <configuration name="KinesisAsyncClientFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.hc.state_process_module.JobVertexGenerator" />
-      <module name="SqlFlink" />
+      <option name="MAIN_CLASS_NAME" value="com.hc.KinesisAsyncClientFactory" />
+      <module name="NettyKinesis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hc.state_process_module.*" />
+          <option name="PATTERN" value="com.hc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,55 +428,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiteralInRowCalcite" type="Application" factoryName="Application" temporary="true">
+    <configuration name="LongOf1Num" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.hc.row_module.LiteralInRowCalcite" />
+      <option name="MAIN_CLASS_NAME" value="LongOf1Num" />
       <module name="SqlFlink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hc.row_module.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SessionClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNettyNioAsyncKinesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.hc.sql_gateway_module.SessionClientMain" />
-      <module name="SqlFlink" />
+      <option name="MAIN_CLASS_NAME" value="com.hc.TestNettyNioAsyncKinesis" />
+      <module name="NettyKinesis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hc.sql_gateway_module.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestReadState2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.hc.state_process_module.TestReadState2" />
-      <module name="SqlFlink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hc.state_process_module.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestReadState3_aboutKinesisShard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.hc.state_process_module.TestReadState3_aboutKinesisShard" />
-      <module name="SqlFlink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hc.state_process_module.*" />
+          <option name="PATTERN" value="com.hc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,20 +456,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.apache.flink.streaming.api.functions.sink.filesystem.TestReadState4_aboutKinesisShard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.flink.streaming.api.functions.sink.filesystem.TestReadState4_aboutKinesisShard" />
+      <module name="SqlFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.flink.streaming.api.functions.sink.filesystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.apache.flink.streaming.api.functions.sink.filesystem.TestReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.flink.streaming.api.functions.sink.filesystem.TestReflect" />
+      <module name="SqlFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.flink.fs.s3.common.writer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.SessionClientMain" />
-      <item itemvalue="Application.TestReadState2" />
-      <item itemvalue="Application.TestReadState3_aboutKinesisShard" />
-      <item itemvalue="Application.JobVertexGenerator" />
-      <item itemvalue="Application.LiteralInRowCalcite" />
+      <item itemvalue="Application.KinesisAsyncClientFactory" />
+      <item itemvalue="Application.TestNettyNioAsyncKinesis" />
+      <item itemvalue="Application.LongOf1Num" />
+      <item itemvalue="Application.org.apache.flink.streaming.api.functions.sink.filesystem.TestReadState4_aboutKinesisShard" />
+      <item itemvalue="Application.org.apache.flink.streaming.api.functions.sink.filesystem.TestReflect" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SessionClientMain" />
-        <item itemvalue="Application.TestReadState2" />
-        <item itemvalue="Application.TestReadState3_aboutKinesisShard" />
-        <item itemvalue="Application.JobVertexGenerator" />
-        <item itemvalue="Application.LiteralInRowCalcite" />
+        <item itemvalue="Application.KinesisAsyncClientFactory" />
+        <item itemvalue="Application.TestNettyNioAsyncKinesis" />
+        <item itemvalue="Application.LongOf1Num" />
+        <item itemvalue="Application.org.apache.flink.streaming.api.functions.sink.filesystem.TestReflect" />
+        <item itemvalue="Application.org.apache.flink.streaming.api.functions.sink.filesystem.TestReadState4_aboutKinesisShard" />
       </list>
     </recent_temporary>
   </component>
@@ -476,6 +577,29 @@
       <workItem from="1658114577052" duration="22637000" />
       <workItem from="1658396369134" duration="130000" />
       <workItem from="1658831428280" duration="5725000" />
+      <workItem from="1659354761029" duration="448000" />
+      <workItem from="1659949706402" duration="3647000" />
+      <workItem from="1660011788193" duration="54000" />
+      <workItem from="1660012650730" duration="2696000" />
+      <workItem from="1660015387120" duration="3458000" />
+      <workItem from="1660019441058" duration="1237000" />
+      <workItem from="1660122799782" duration="24466000" />
+      <workItem from="1660206305034" duration="8441000" />
+      <workItem from="1660219402710" duration="7000" />
+      <workItem from="1660275567990" duration="81000" />
+      <workItem from="1660566979551" duration="5346000" />
+      <workItem from="1660788180288" duration="2350000" />
+      <workItem from="1660791740328" duration="3695000" />
+      <workItem from="1661235802509" duration="2093000" />
+      <workItem from="1661936693298" duration="1121000" />
+      <workItem from="1661940226510" duration="2851000" />
+      <workItem from="1661946850221" duration="473000" />
+      <workItem from="1661947421170" duration="144000" />
+      <workItem from="1661947606127" duration="3933000" />
+      <workItem from="1662015445597" duration="2700000" />
+      <workItem from="1662102129470" duration="3388000" />
+      <workItem from="1662110564023" duration="2000" />
+      <workItem from="1662121442430" duration="1996000" />
     </task>
     <task id="LOCAL-00001" summary="2022-03-31晚">
       <created>1648731810516</created>
@@ -519,7 +643,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656231578603</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2022-06-25 测试使用flink-gateaway客户端进行提交,以及测试新版本flink kinesis分片规则">
+      <created>1659354920874</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659354920874</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2022-06-25 测试使用flink-gateaway客户端进行提交,以及测试新版本flink kinesis分片规则">
+      <created>1659354953339</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659354953339</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2022-06-25 测试使用flink-gateaway客户端进行提交,以及测试新版本flink kinesis分片规则">
+      <created>1659354991114</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659354991114</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -614,7 +759,8 @@
     <MESSAGE value="2022-04-15 hive hook了解" />
     <MESSAGE value="2022-06-11 flinksql了解流程" />
     <MESSAGE value="2022-06-25 state_process_api 调用测试(在未设置uid的情况下获取,获取对应算子的状态信息)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-06-25 state_process_api 调用测试(在未设置uid的情况下获取,获取对应算子的状态信息)" />
+    <MESSAGE value="2022-06-25 测试使用flink-gateaway客户端进行提交,以及测试新版本flink kinesis分片规则" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-06-25 测试使用flink-gateaway客户端进行提交,以及测试新版本flink kinesis分片规则" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -953,9 +1099,69 @@
           <option name="timeStamp" value="142" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/TestReadState2.java</url>
+          <url>file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/TestReadState4_aboutKinesisShard.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SqlFlink/src/main/java/com/hc/state_process_module/TestReflect.java</url>
           <line>103</line>
-          <option name="timeStamp" value="144" />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SqlFlink/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/TestReflect.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-file-sink-common/1.13.3/flink-file-sink-common-1.13.3-sources.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/OutputStreamBasedPartFileWriter.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-hadoop-fs/1.13.3/flink-hadoop-fs-1.13.3-sources.jar!/org/apache/flink/runtime/fs/hdfs/HadoopFsFactory.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.13.3/flink-streaming-java_2.11-1.13.3-sources.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/Bucket.java</url>
+          <line>327</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-aws/3.1.0/hadoop-aws-3.1.0-sources.jar!/org/apache/hadoop/fs/s3a/WriteOperationHelper.java</url>
+          <line>264</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-aws/3.1.0/hadoop-aws-3.1.0-sources.jar!/org/apache/hadoop/fs/s3a/WriteOperationHelper.java</url>
+          <line>228</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../source/suorce_flink/flink-filesystems/flink-s3-fs-base/src/main/java/org/apache/flink/fs/s3/common/writer/RecoverableMultiPartUploadImpl.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../source/suorce_flink/flink-filesystems/flink-s3-fs-base/src/main/java/org/apache/flink/fs/s3/common/writer/RecoverableMultiPartUploadImpl.java</url>
+          <line>325</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../source/suorce_flink/flink-filesystems/flink-s3-fs-base/src/main/java/org/apache/flink/fs/s3/common/writer/RecoverableMultiPartUploadImpl.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../source/suorce_flink/flink-filesystems/flink-s3-fs-base/src/main/java/org/apache/flink/fs/s3/common/writer/RecoverableMultiPartUploadImpl.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../source/suorce_flink/flink-filesystems/flink-s3-fs-base/src/main/java/org/apache/flink/fs/s3/common/writer/RecoverableMultiPartUploadImpl.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="175" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-table-planner-blink_2.11/1.13.3/flink-table-planner-blink_2.11-1.13.3-sources.jar!/org/apache/flink/table/planner/delegation/PlannerBase.scala</url>
@@ -1061,14 +1267,22 @@
           </properties>
           <option name="timeStamp" value="143" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-s3-fs-hadoop/1.13.3/flink-s3-fs-hadoop-1.13.3.jar!/com/amazonaws/services/s3/AmazonS3Client.class</url>
+          <line>394</line>
+          <properties class="com.amazonaws.services.s3.AmazonS3Client" method="uploadPart">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="httpRequest" language="JAVA" />
-        <watch expression="s" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.flink.state.api.runtime.metadata.SavepointMetadata" memberName="operatorStateIndex" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
